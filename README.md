@@ -292,21 +292,3 @@ If this code contributes to research, please cite the associated research public
 
 ````
 
-### One thing I deliberately changed
-
-I **did not call the input columns "particle volume concentrations" as an established fact**. Your code labels the output as \(dV/d\log D_p\), but from the code alone we cannot determine whether `Book3.xlsx` already contains volume-distribution data or whether those values originated from a prior conversion/calibration step.
-
-That distinction matters scientifically. We can resolve it later when we document the instrument/data-processing methodology.
-
-### Your Project 1 now has the basic pieces
-
-```text
-aerosol-volume-distribution/
-│
-├── README.md                    ← prepared
-├── aerosol_volume_distribution.py ← cleaned code
-└── requirements.txt             ← next
-````
-
-**Next, let's prepare `requirements.txt` and then I'll walk you through creating this repository in GitHub from your browser, one step at a time.**
-
